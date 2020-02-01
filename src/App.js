@@ -98,7 +98,7 @@ function App() {
                 className={ classnames('w-100 p-1 form-control',{ 'is-invalid' : error })}
                 maxLength="32"
                 />
-                <button type="button" onClick={ addTodo } className="my-3 btn btn-primary"><i className="fa fa-plus">
+                <button type="button" onClick={ addTodo } className="my-3 btn btn-primary"><i className="far fa-plus-square">
                 </i> Add Todo</button>{' '}
                 <button onClick={ clearAll } type="button" className="btn btn-danger"><i className="fa fa-trash"></i> Clear All</button>
             </div>
