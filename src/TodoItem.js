@@ -1,15 +1,10 @@
-import React , { useState } from 'react';
+import React from 'react';
 
 function TodoItem(props) {
-    // let [name , setname ] = useState('Ebad');
-    // const nameChange = (e)=>{
-    //     setname(e.target.value);
-    // }
+   
     return (
         <div>
-            <h2>hello tt</h2>
-            <h2>{ props.name }</h2>
-            <h2>{ props.todo }</h2>
+            <h3>{ props.index+1 }) { props.name } <i className='fa fa-trash'></i></h3>
         </div>
     )
 }
