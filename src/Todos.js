@@ -2,8 +2,6 @@ import React, { useState ,useEffect } from "react";
 import classnames from 'classnames';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter,Alert } from 'reactstrap';
 
-
-
 function Todos(props) {
   const [todos, setTodos] = useState([]);
   const [todo, setTodo] = useState("");
