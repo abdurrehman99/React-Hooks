@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import classnames from 'classnames';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter,Alert } from 'reactstrap';
+import TodoItem from './TodoItem';
+import Test from './Test';
 
 function App() {
 
@@ -57,6 +59,8 @@ function App() {
   return (
     <div>
       <div className="container">
+      <TodoItem/>
+      <Test/>
       <Alert isOpen={visible} toggle={onDismiss} className='mb-0 mt-2' color="info">
         Todo List is Empty !
       </Alert>
